@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ws_d1/devel
+
+Name: d1_description
+Description: Description of d1_description
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ws_d1/install
+
+Name: camera_data
+Description: Description of camera_data
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs sensor_msgs message_runtime tf

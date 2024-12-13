@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/test_basics.dir/test_basics.cpp.o -o /home/nvidia/ws_d1/devel/lib/geometric_shapes/test_basics   -L/home/nvidia/ws_d1/build/gtest  -Wl,-rpath,/home/nvidia/ws_d1/build/gtest:/home/nvidia/ws_d1/build/gtest/lib ../../gtest/lib/libgtest.so -lpthread 

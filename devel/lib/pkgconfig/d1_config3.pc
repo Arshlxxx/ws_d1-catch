@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ws_d1/devel
+
+Name: d1_config3
+Description: Description of d1_config3
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
