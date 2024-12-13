@@ -56,7 +56,7 @@ void jointStateCallback(const sensor_msgs::JointState::ConstPtr& msg)
                             + std::to_string(joint_positions[2]) +",\"angle3\":"
                             + std::to_string(joint_positions[3]) +",\"angle4\":"
                             + std::to_string(joint_positions[4]) +",\"angle5\":"
-                            + std::to_string(joint_positions[5]) +",\"angle6\":1000}}"; 
+                            + std::to_string(joint_positions[5]) +",\"angle6\":380}}"; 
 
                             
 

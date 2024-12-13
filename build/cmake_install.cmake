@@ -190,6 +190,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/nvidia/ws_d1/build/moveit_tutorials/cmake_install.cmake")
   include("/home/nvidia/ws_d1/build/moveit/moveit_planners/pilz_industrial_motion_planner_testutils/cmake_install.cmake")
   include("/home/nvidia/ws_d1/build/moveit/moveit_planners/pilz_industrial_motion_planner/cmake_install.cmake")
+  include("/home/nvidia/ws_d1/build/launch/cmake_install.cmake")
 
 endif()
 

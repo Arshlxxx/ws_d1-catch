@@ -1,0 +1,29 @@
+<launch>
+    <!-- 定义延迟启动的参数，默认为1秒 -->
+    <arg name="node_start_delay" default="10.0" />
+    <arg name="node_start_delay1" default="30.0" />
+
+    <!-- 启动第一个 launch 文件 -->
+    <include file="$(find d1_config)/launch/demo.launch" />
+
+    <!-- 启动第二个节点，延迟 node_start_delay 秒 -->
+    <node name="multiple_joint_angle_control" 
+          pkg="d1_sdk" 
+          type="multiple_joint_angle_control" 
+          output="screen"
+          launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@'" />
+
+    <!-- 启动第三个节点，延迟 node_start_delay 秒 -->
+    <node name="detect_node" 
+          pkg="camera_data" 
+          type="detect.py" 
+          output="screen"
+          launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@'" />
+
+    <!-- 启动第四个节点，延迟 node_start_delay 秒 -->
+    <node name="demo_node" 
+          pkg="control_robot" 
+          type="demo_node" 
+          output="screen"
+          launch-prefix="bash -c 'sleep $(arg node_start_delay1); $0 $@'" />
+</launch>
