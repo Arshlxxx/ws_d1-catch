@@ -67,7 +67,7 @@ include moveit_msgs/CMakeFiles/_moveit_msgs_generate_messages_check_deps_Collisi
 include moveit_msgs/CMakeFiles/_moveit_msgs_generate_messages_check_deps_CollisionObject.dir/progress.make
 
 moveit_msgs/CMakeFiles/_moveit_msgs_generate_messages_check_deps_CollisionObject:
-	cd /home/nvidia/ws_d1/build/moveit_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py moveit_msgs /home/nvidia/ws_d1/src/moveit_msgs/msg/CollisionObject.msg object_recognition_msgs/ObjectType:std_msgs/Header:shape_msgs/SolidPrimitive:shape_msgs/Mesh:shape_msgs/Plane:geometry_msgs/Pose:shape_msgs/MeshTriangle:geometry_msgs/Quaternion:geometry_msgs/Point
+	cd /home/nvidia/ws_d1/build/moveit_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py moveit_msgs /home/nvidia/ws_d1/src/moveit_msgs/msg/CollisionObject.msg shape_msgs/SolidPrimitive:geometry_msgs/Quaternion:geometry_msgs/Point:std_msgs/Header:shape_msgs/MeshTriangle:shape_msgs/Plane:object_recognition_msgs/ObjectType:shape_msgs/Mesh:geometry_msgs/Pose
 
 _moveit_msgs_generate_messages_check_deps_CollisionObject: moveit_msgs/CMakeFiles/_moveit_msgs_generate_messages_check_deps_CollisionObject
 _moveit_msgs_generate_messages_check_deps_CollisionObject: moveit_msgs/CMakeFiles/_moveit_msgs_generate_messages_check_deps_CollisionObject.dir/build.make

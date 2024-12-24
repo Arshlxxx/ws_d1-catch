@@ -465,6 +465,20 @@ joint_state_subscriber/fast:
 	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/joint_state_subscriber.dir/build.make d1_sdk/CMakeFiles/joint_state_subscriber.dir/build
 .PHONY : joint_state_subscriber/fast
 
+# Convenience name for target.
+d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/rule:
+	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/rule
+.PHONY : d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/rule
+
+# Convenience name for target.
+multiple_joint_angle_control_policy1: d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/rule
+.PHONY : multiple_joint_angle_control_policy1
+
+# fast build rule for target.
+multiple_joint_angle_control_policy1/fast:
+	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/build.make d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/build
+.PHONY : multiple_joint_angle_control_policy1/fast
+
 src/arm_zero_control.o: src/arm_zero_control.cpp.o
 .PHONY : src/arm_zero_control.o
 
@@ -595,6 +609,7 @@ src/msg/ArmString_.cpp.o:
 	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/joint_enable_control.dir/build.make d1_sdk/CMakeFiles/joint_enable_control.dir/src/msg/ArmString_.cpp.o
 	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/arm_zero_control.dir/build.make d1_sdk/CMakeFiles/arm_zero_control.dir/src/msg/ArmString_.cpp.o
 	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/get_arm_joint_angle.dir/build.make d1_sdk/CMakeFiles/get_arm_joint_angle.dir/src/msg/ArmString_.cpp.o
+	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/build.make d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/src/msg/ArmString_.cpp.o
 .PHONY : src/msg/ArmString_.cpp.o
 
 src/msg/ArmString_.i: src/msg/ArmString_.cpp.i
@@ -607,6 +622,7 @@ src/msg/ArmString_.cpp.i:
 	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/joint_enable_control.dir/build.make d1_sdk/CMakeFiles/joint_enable_control.dir/src/msg/ArmString_.cpp.i
 	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/arm_zero_control.dir/build.make d1_sdk/CMakeFiles/arm_zero_control.dir/src/msg/ArmString_.cpp.i
 	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/get_arm_joint_angle.dir/build.make d1_sdk/CMakeFiles/get_arm_joint_angle.dir/src/msg/ArmString_.cpp.i
+	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/build.make d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/src/msg/ArmString_.cpp.i
 .PHONY : src/msg/ArmString_.cpp.i
 
 src/msg/ArmString_.s: src/msg/ArmString_.cpp.s
@@ -619,6 +635,7 @@ src/msg/ArmString_.cpp.s:
 	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/joint_enable_control.dir/build.make d1_sdk/CMakeFiles/joint_enable_control.dir/src/msg/ArmString_.cpp.s
 	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/arm_zero_control.dir/build.make d1_sdk/CMakeFiles/arm_zero_control.dir/src/msg/ArmString_.cpp.s
 	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/get_arm_joint_angle.dir/build.make d1_sdk/CMakeFiles/get_arm_joint_angle.dir/src/msg/ArmString_.cpp.s
+	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/build.make d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/src/msg/ArmString_.cpp.s
 .PHONY : src/msg/ArmString_.cpp.s
 
 src/msg/PubServoInfo_.o: src/msg/PubServoInfo_.cpp.o
@@ -669,6 +686,30 @@ src/multiple_joint_angle_control.cpp.s:
 	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/multiple_joint_angle_control.dir/build.make d1_sdk/CMakeFiles/multiple_joint_angle_control.dir/src/multiple_joint_angle_control.cpp.s
 .PHONY : src/multiple_joint_angle_control.cpp.s
 
+src/multiple_joint_angle_control_policy1.o: src/multiple_joint_angle_control_policy1.cpp.o
+.PHONY : src/multiple_joint_angle_control_policy1.o
+
+# target to build an object file
+src/multiple_joint_angle_control_policy1.cpp.o:
+	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/build.make d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/src/multiple_joint_angle_control_policy1.cpp.o
+.PHONY : src/multiple_joint_angle_control_policy1.cpp.o
+
+src/multiple_joint_angle_control_policy1.i: src/multiple_joint_angle_control_policy1.cpp.i
+.PHONY : src/multiple_joint_angle_control_policy1.i
+
+# target to preprocess a source file
+src/multiple_joint_angle_control_policy1.cpp.i:
+	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/build.make d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/src/multiple_joint_angle_control_policy1.cpp.i
+.PHONY : src/multiple_joint_angle_control_policy1.cpp.i
+
+src/multiple_joint_angle_control_policy1.s: src/multiple_joint_angle_control_policy1.cpp.s
+.PHONY : src/multiple_joint_angle_control_policy1.s
+
+# target to generate assembly for a file
+src/multiple_joint_angle_control_policy1.cpp.s:
+	cd /home/nvidia/ws_d1/build && $(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/build.make d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/src/multiple_joint_angle_control_policy1.cpp.s
+.PHONY : src/multiple_joint_angle_control_policy1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -703,6 +744,7 @@ help:
 	@echo "... joint_enable_control"
 	@echo "... joint_state_subscriber"
 	@echo "... multiple_joint_angle_control"
+	@echo "... multiple_joint_angle_control_policy1"
 	@echo "... src/arm_zero_control.o"
 	@echo "... src/arm_zero_control.i"
 	@echo "... src/arm_zero_control.s"
@@ -727,6 +769,9 @@ help:
 	@echo "... src/multiple_joint_angle_control.o"
 	@echo "... src/multiple_joint_angle_control.i"
 	@echo "... src/multiple_joint_angle_control.s"
+	@echo "... src/multiple_joint_angle_control_policy1.o"
+	@echo "... src/multiple_joint_angle_control_policy1.i"
+	@echo "... src/multiple_joint_angle_control_policy1.s"
 .PHONY : help
 
 

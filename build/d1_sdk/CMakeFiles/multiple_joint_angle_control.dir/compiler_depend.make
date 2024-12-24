@@ -397,6 +397,7 @@ d1_sdk/CMakeFiles/multiple_joint_angle_control.dir/src/multiple_joint_angle_cont
   /opt/ros/noetic/include/rosconsole/macros_generated.h \
   /opt/ros/noetic/include/sensor_msgs/JointState.h \
   /opt/ros/noetic/include/std_msgs/Header.h \
+  /opt/ros/noetic/include/std_msgs/Int32.h \
   /opt/ros/noetic/include/xmlrpcpp/XmlRpcDecl.h \
   /opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h \
   /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
@@ -2947,6 +2948,10 @@ d1_sdk/CMakeFiles/multiple_joint_angle_control.dir/src/multiple_joint_angle_cont
 
 /usr/include/boost/preprocessor/identity.hpp:
 
+/usr/local/include/unitree/common/dds/dds_native.hpp:
+
+/usr/include/boost/preprocessor/facilities/overload.hpp:
+
 /usr/include/boost/preprocessor/list/fold_left.hpp:
 
 /usr/include/boost/core/noinit_adaptor.hpp:
@@ -3084,6 +3089,8 @@ d1_sdk/CMakeFiles/multiple_joint_angle_control.dir/src/multiple_joint_angle_cont
 /usr/include/aarch64-linux-gnu/c++/9/bits/cxxabi_tweaks.h:
 
 /usr/include/c++/9/bits/stl_iterator.h:
+
+/opt/ros/noetic/include/std_msgs/Int32.h:
 
 /usr/include/aarch64-linux-gnu/sys/procfs.h:
 
@@ -3875,10 +3882,6 @@ d1_sdk/CMakeFiles/multiple_joint_angle_control.dir/src/multiple_joint_angle_cont
 
 /usr/include/c++/9/bits/vector.tcc:
 
-/usr/include/boost/type_traits/has_left_shift.hpp:
-
-/usr/include/boost/core/swap.hpp:
-
 /opt/ros/noetic/include/ros/timer_options.h:
 
 /usr/include/aarch64-linux-gnu/c++/9/bits/os_defines.h:
@@ -4590,6 +4593,10 @@ d1_sdk/CMakeFiles/multiple_joint_angle_control.dir/src/multiple_joint_angle_cont
 /usr/include/boost/concept/usage.hpp:
 
 /usr/include/net/if.h:
+
+/usr/include/boost/type_traits/has_left_shift.hpp:
+
+/usr/include/boost/core/swap.hpp:
 
 /usr/include/boost/date_time/adjust_functors.hpp:
 
@@ -5610,7 +5617,3 @@ d1_sdk/CMakeFiles/multiple_joint_angle_control.dir/src/multiple_joint_angle_cont
 /usr/include/boost/preprocessor/facilities/empty.hpp:
 
 /usr/include/boost/preprocessor/facilities/identity.hpp:
-
-/usr/local/include/unitree/common/dds/dds_native.hpp:
-
-/usr/include/boost/preprocessor/facilities/overload.hpp:

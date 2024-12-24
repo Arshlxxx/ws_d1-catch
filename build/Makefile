@@ -1303,6 +1303,19 @@ joint_state_subscriber/fast:
 .PHONY : joint_state_subscriber/fast
 
 #=============================================================================
+# Target rules for targets named multiple_joint_angle_control_policy1
+
+# Build rule for target.
+multiple_joint_angle_control_policy1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 multiple_joint_angle_control_policy1
+.PHONY : multiple_joint_angle_control_policy1
+
+# fast build rule for target.
+multiple_joint_angle_control_policy1/fast:
+	$(MAKE) $(MAKESILENT) -f d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/build.make d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/build
+.PHONY : multiple_joint_angle_control_policy1/fast
+
+#=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -12357,6 +12370,7 @@ help:
 	@echo "... moveit_warehouse_save_as_text"
 	@echo "... moveit_warehouse_services"
 	@echo "... multiple_joint_angle_control"
+	@echo "... multiple_joint_angle_control_policy1"
 	@echo "... pick_place_tutorial"
 	@echo "... pilz_industrial_motion_planner"
 	@echo "... pilz_industrial_motion_planner_lib"

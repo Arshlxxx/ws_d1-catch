@@ -1694,6 +1694,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "d1_sdk/CMakeFiles/arm_zero_control.dir/DependInfo.cmake"
   "d1_sdk/CMakeFiles/get_arm_joint_angle.dir/DependInfo.cmake"
   "d1_sdk/CMakeFiles/joint_state_subscriber.dir/DependInfo.cmake"
+  "d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/DependInfo.cmake"
   "moveit_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "moveit_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/DependInfo.cmake"
   "moveit_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake"

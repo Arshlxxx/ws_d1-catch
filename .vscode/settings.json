@@ -77,5 +77,6 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/nvidia/ws_d1/src/d1_config"
 }

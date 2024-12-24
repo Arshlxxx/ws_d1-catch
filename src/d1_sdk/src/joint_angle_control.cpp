@@ -14,8 +14,7 @@ int main()
     publisher.InitChannel();
 
     unitree_arm::msg::dds_::ArmString_ msg{};
-    // msg.data_() = "{\"seq\":4,\"address\":1,\"funcode\":1,\"data\":{\"id\":5,\"angle\":40,\"delay_ms\":500}}";
-    msg.data_() = "{\"seq\":4,\"address\":1,\"funcode\":1,\"data\":{\"id\":6,\"angle\":176,\"delay_ms\":1000}}";
+    msg.data_() = "{\"seq\":4,\"address\":1,\"funcode\":1,\"data\":{\"id\":6,\"angle\":57,\"delay_ms\":500}}";
     publisher.Write(msg);
  
     return 0;

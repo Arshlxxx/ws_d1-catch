@@ -1606,4 +1606,5 @@ d1_sdk/CMakeFiles/multiple_joint_angle_control.dir/src/multiple_joint_angle_cont
  /opt/ros/noetic/include/ros/node_handle.h \
  /opt/ros/noetic/include/sensor_msgs/JointState.h \
  /opt/ros/noetic/include/ros/message_operations.h \
- /opt/ros/noetic/include/std_msgs/Header.h
+ /opt/ros/noetic/include/std_msgs/Header.h \
+ /opt/ros/noetic/include/std_msgs/Int32.h

@@ -253,6 +253,7 @@
 /home/nvidia/ws_d1/build/d1_sdk/CMakeFiles/arm_zero_control.dir
 /home/nvidia/ws_d1/build/d1_sdk/CMakeFiles/get_arm_joint_angle.dir
 /home/nvidia/ws_d1/build/d1_sdk/CMakeFiles/joint_state_subscriber.dir
+/home/nvidia/ws_d1/build/d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir
 /home/nvidia/ws_d1/build/d1_sdk/CMakeFiles/test.dir
 /home/nvidia/ws_d1/build/d1_sdk/CMakeFiles/edit_cache.dir
 /home/nvidia/ws_d1/build/d1_sdk/CMakeFiles/rebuild_cache.dir

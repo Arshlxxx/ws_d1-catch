@@ -1679,3 +1679,123 @@ events:
         201402
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/opt/ros/noetic/share/eigenpy/cmake/cxx-standard.cmake:49 (try_run)"
+      - "/opt/ros/noetic/share/eigenpy/cmake/eigenpyConfig.cmake:196 (CHECK_MINIMAL_CXX_STANDARD)"
+      - "moveit/moveit_ros/planning_interface/CMakeLists.txt:41 (find_package)"
+    directories:
+      source: "/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp"
+      binary: "/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "_cxx_standard_build_status"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_82b53/fast
+        make[1]: Entering directory '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        /usr/bin/make  -f CMakeFiles/cmTC_82b53.dir/build.make CMakeFiles/cmTC_82b53.dir/build
+        make[2]: Entering directory '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_82b53.dir/tmp-cxx-standard.cpp.o
+        /usr/lib/ccache/c++    -o CMakeFiles/cmTC_82b53.dir/tmp-cxx-standard.cpp.o -c /home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/cmake/tmp-cxx-standard.cpp
+        Linking CXX executable cmTC_82b53
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82b53.dir/link.txt --verbose=1
+        /usr/lib/ccache/c++ -rdynamic "CMakeFiles/cmTC_82b53.dir/tmp-cxx-standard.cpp.o" -o cmTC_82b53 
+        make[2]: Leaving directory '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        make[1]: Leaving directory '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "_cxx_standard_run_status"
+      cached: true
+      stdout: |
+        201402
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/opt/ros/noetic/share/eigenpy/cmake/cxx-standard.cmake:49 (try_run)"
+      - "/opt/ros/noetic/share/eigenpy/cmake/eigenpyConfig.cmake:196 (CHECK_MINIMAL_CXX_STANDARD)"
+      - "moveit/moveit_ros/planning_interface/CMakeLists.txt:41 (find_package)"
+    directories:
+      source: "/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp"
+      binary: "/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "_cxx_standard_build_status"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_61cd5/fast
+        make[1]: Entering directory '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        /usr/bin/make  -f CMakeFiles/cmTC_61cd5.dir/build.make CMakeFiles/cmTC_61cd5.dir/build
+        make[2]: Entering directory '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_61cd5.dir/tmp-cxx-standard.cpp.o
+        /usr/lib/ccache/c++    -o CMakeFiles/cmTC_61cd5.dir/tmp-cxx-standard.cpp.o -c /home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/cmake/tmp-cxx-standard.cpp
+        Linking CXX executable cmTC_61cd5
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61cd5.dir/link.txt --verbose=1
+        /usr/lib/ccache/c++ -rdynamic "CMakeFiles/cmTC_61cd5.dir/tmp-cxx-standard.cpp.o" -o cmTC_61cd5 
+        make[2]: Leaving directory '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        make[1]: Leaving directory '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "_cxx_standard_run_status"
+      cached: true
+      stdout: |
+        201402
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/opt/ros/noetic/share/eigenpy/cmake/cxx-standard.cmake:49 (try_run)"
+      - "/opt/ros/noetic/share/eigenpy/cmake/eigenpyConfig.cmake:196 (CHECK_MINIMAL_CXX_STANDARD)"
+      - "moveit/moveit_ros/planning_interface/CMakeLists.txt:41 (find_package)"
+    directories:
+      source: "/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp"
+      binary: "/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "_cxx_standard_build_status"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fce8e/fast
+        make[1]: Entering directory '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        /usr/bin/make  -f CMakeFiles/cmTC_fce8e.dir/build.make CMakeFiles/cmTC_fce8e.dir/build
+        make[2]: Entering directory '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_fce8e.dir/tmp-cxx-standard.cpp.o
+        /usr/lib/ccache/c++    -o CMakeFiles/cmTC_fce8e.dir/tmp-cxx-standard.cpp.o -c /home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/cmake/tmp-cxx-standard.cpp
+        Linking CXX executable cmTC_fce8e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fce8e.dir/link.txt --verbose=1
+        /usr/lib/ccache/c++ -rdynamic "CMakeFiles/cmTC_fce8e.dir/tmp-cxx-standard.cpp.o" -o cmTC_fce8e 
+        make[2]: Leaving directory '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        make[1]: Leaving directory '/home/nvidia/ws_d1/build/moveit/moveit_ros/planning_interface/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "_cxx_standard_run_status"
+      cached: true
+      stdout: |
+        201402
+      exitCode: 0
+...

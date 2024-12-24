@@ -13,7 +13,7 @@ void Handler(const void* msg)
 {
     const unitree_arm::msg::dds_::PubServoInfo_* pm = (const unitree_arm::msg::dds_::PubServoInfo_*)msg;
 
-    std::cout << "servo1_data:" << pm->servo0_data_() << ", servo2_data:" << pm->servo1_data_() << ", servo3_data:" << pm->servo2_data_()<< ", servo4_data:" << pm->servo3_data_()<< ", servo5_data:" << pm->servo4_data_()<< ", servo6_data:" << pm->servo5_data_()<< ", servo7_data:" << pm->servo6_data_() << std::endl;
+    std::cout << "servo0_data:" << pm->servo0_data_() << ", servo1_data:" << pm->servo1_data_() << ", servo2_data:" << pm->servo2_data_()<< ", servo3_data:" << pm->servo3_data_()<< ", servo4_data:" << pm->servo4_data_()<< ", servo5_data:" << pm->servo5_data_()<< ", servo6_data:" << pm->servo6_data_() << std::endl;
 }
 
 void Handler1(const void* msg)

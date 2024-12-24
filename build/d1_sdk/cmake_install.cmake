@@ -201,3 +201,27 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   include("/home/nvidia/ws_d1/build/d1_sdk/CMakeFiles/joint_state_subscriber.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/d1_sdk/multiple_joint_angle_control_policy1" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/d1_sdk/multiple_joint_angle_control_policy1")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/d1_sdk/multiple_joint_angle_control_policy1"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/d1_sdk" TYPE EXECUTABLE FILES "/home/nvidia/ws_d1/devel/lib/d1_sdk/multiple_joint_angle_control_policy1")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/d1_sdk/multiple_joint_angle_control_policy1" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/d1_sdk/multiple_joint_angle_control_policy1")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/d1_sdk/multiple_joint_angle_control_policy1"
+         OLD_RPATH "/opt/ros/noetic/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/d1_sdk/multiple_joint_angle_control_policy1")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/nvidia/ws_d1/build/d1_sdk/CMakeFiles/multiple_joint_angle_control_policy1.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+endif()
+

@@ -30,13 +30,37 @@ apple_positions = []
 #     [0, 0, 0, 1]
 # ])
 
-T_hc = np.array([
-    [0, 1, 0, 0.02],
-    [0, 0, 1, 0.045],
-    [1, 0, 0, -0.065],
-    [0, 0, 0, 1]
-])
+# T_hc = np.array([
+#     [0, 1, 0, 0.02],
+#     [0, 0, 1, 0.045],
+#     [1, 0, 0, -0.065],
+#     [0, 0, 0, 1]
+# ])
 
+T_hc = np.array([
+    [-0.08761895,  0.99613429,  0.00627619, 0.08636197],
+    [ 0.44929099,  0.03389441,  0.89274228, -0.03210363],
+    [ 0.88907847,  0.08104098, -0.45052396, -0.04985081],
+    [ 0,          0,          0,          1        ]])
+
+# T_hc = np.array([
+#     [ 0.88907847,  0.08104098, -0.45052396, -0.04985081],
+#     [-0.08761895,  0.99613429,  0.00627619, -0.08636197],
+#     [ 0.44929099,  0.03389441,  0.89274228, -0.03210363],
+#     [ 0,          0,          0,          1        ]])
+
+# T_hc = np.array([
+#     [0.01391821, 0.96505936, -0.26166146, 0.0176825],
+#     [0.03727831, 0.26100406, 0.96461765, 0.04349952],
+#     [0.99920799, -0.02318005, -0.03234308, -0.06408225],
+#     [0, 0, 0, 1]
+# ])
+# T_hc = np.array([
+#     [0.0, 1, -0.0, 0.0176825],
+#     [0.0, 0.0, 1, 0.04349952],
+#     [1, -0.0, -0.0, -0.06408225],
+#     [0, 0, 0, 1]
+# ])
 
 
 # hand_eye_matrix = np.array( [[ 0.98544367,  0.15399075, -0.07202509,  0.08553192],
@@ -45,19 +69,6 @@ T_hc = np.array([
 #  [ 0.,          0.,          0.,          1.        ]])
 
 
-# T_rotation_hand = np.array([
-#     [0, 1, 0, 0],
-#     [0, 0, -1, 0],
-#     [-1, 0, 0, 0],
-#     [0, 0, 0, 1]
-# ])
-
-# T_rotation_hand = np.array([
-#     [0, 1, 0, 0],
-#     [0, 0, 1, 0],
-#     [1, 0, 0, 0],
-#     [0, 0, 0, 1]
-# ])
 
 def quaternion_to_euler(x, y, z, w):
     """
@@ -126,7 +137,7 @@ def fetch_transform():
         transform_matrix = None
 
 # 1️⃣ Initialize YOLOv8 model
-model = YOLO('yolov8m.pt')  # Replace with your YOLOv8 model path
+model = YOLO('yolov8l.pt')  # Replace with your YOLOv8 model path
 
 # 2️⃣ Initialize RealSense pipeline
 pipeline = rs.pipeline()
@@ -175,7 +186,7 @@ try:
             for box in result.boxes:
                 cls = int(box.cls[0])  # Detected class
                 conf = float(box.conf[0])  # Confidence
-                if cls != 39 or conf < 0.5:  # Only detect apples (class 47)
+                if cls != 47 or conf < 0.5:  # Only detect apples (class 47)
                     continue
 
                 x1, y1, x2, y2 = map(int, box.xyxy[0])

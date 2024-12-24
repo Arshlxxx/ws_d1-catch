@@ -78,8 +78,8 @@ moveit_resources/panda_description/CMakeFiles/moveit_resources_panda_description
 	cd /home/nvidia/ws_d1/build/moveit_resources/panda_description && /usr/local/bin/cmake -E make_directory /home/nvidia/ws_d1/devel/share/moveit_resources_panda_description/robots
 
 /home/nvidia/ws_d1/src/moveit_resources/panda_description/urdf/panda.urdf: /home/nvidia/ws_d1/src/moveit_resources/panda_description/urdf/panda_arm_hand.urdf.xacro
-/home/nvidia/ws_d1/src/moveit_resources/panda_description/urdf/panda.urdf: /home/nvidia/ws_d1/src/moveit_resources/panda_description/urdf/hand.xacro
 /home/nvidia/ws_d1/src/moveit_resources/panda_description/urdf/panda.urdf: /home/nvidia/ws_d1/src/moveit_resources/panda_description/urdf/panda_arm.xacro
+/home/nvidia/ws_d1/src/moveit_resources/panda_description/urdf/panda.urdf: /home/nvidia/ws_d1/src/moveit_resources/panda_description/urdf/hand.xacro
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nvidia/ws_d1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "xacro: generating /home/nvidia/ws_d1/src/moveit_resources/panda_description/urdf/panda.urdf from urdf/panda_arm_hand.urdf.xacro"
 	cd /home/nvidia/ws_d1/src/moveit_resources/panda_description && /home/nvidia/ws_d1/build/catkin_generated/env_cached.sh xacro -o /home/nvidia/ws_d1/src/moveit_resources/panda_description/urdf/panda.urdf urdf/panda_arm_hand.urdf.xacro
 
